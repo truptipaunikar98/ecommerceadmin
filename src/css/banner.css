@@ -1,0 +1,9 @@
+.banner{
+    height: 20vh;
+    
+}
+.banner img{
+    height: 20vh;
+    width: 100%;
+    border-radius: 12px;
+}

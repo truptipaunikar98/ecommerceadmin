@@ -1,14 +1,14 @@
 import './App.css';
-import Allroutes from './allroutes/Allroutes';
-import Sidebar from './components/Sidebar';
-
+import Navbar from './components/Navbar';
+import Main from './Main/Main';
+import Login from "./pages/Login"
 function App() {
   return (
-    <div className="App">
-      <div className='row'>
-        <div className='col-3 p-0'><Sidebar/></div>
-        <div className='col-9'><Allroutes/></div>
-      </div>
+    <div className="">
+      {
+         localStorage.getItem("isLogin")? <><Navbar/>
+         <Main/></> : <Login/> 
+      }
     </div>
   );
 }

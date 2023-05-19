@@ -1,21 +1,44 @@
 *{
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
 }
-.adminbg{
-  background-color: white;
+.margin0{
+  margin: 0px !important;
 }
-.adminImg img{
-  height: 60px;
-  width: 50px;
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: gainsboro;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+  border: 5px solid navy;
 }
-.adminDiv{
-  background-color: rgb(183, 205, 239);
-  border: 2px 2px 2px solid rgb(168, 198, 233);
-  box-shadow: 2px 2px 4px rgb(37, 36, 36);
-  border-radius: 8px;
+.imageContainer {
+  text-align: center;
 }
-.adminDiv:hover{
-  box-shadow: -2px -2px 8px rgb(37, 36, 36);
+.imageContainer img {
+  height: 120px;
+}
+.loginInp {
+  margin: 2px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+button {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 10px;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+
+.popupBoxShadow{
+  border: 2px solid rgb(54, 53, 53);
+  box-shadow: 2px 2px 2px black;
 }
